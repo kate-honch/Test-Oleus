@@ -1,0 +1,76 @@
+.compare {
+  width: 960px;
+  margin: 0 auto;
+  padding: 41px 0 70px;
+}
+.compare_title {
+  margin-bottom: 24px;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.compare table {
+  width: 100%;
+  height: 529px;
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-spacing: 3px;
+}
+.compare_table__products {
+  width: 156px;
+}
+.compare_table__products_title {
+  text-align: center;
+}
+.compare_table__products td > img {
+  margin: 0 auto;
+  display: block;
+}
+.compare_table__products_named {
+  width: 240px;
+  padding: 6px 26px 7px 21px;
+  background-color: #F1C61A;
+  border: 1px solid #E5E5E5;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.compare_table__products_named_last {
+  padding: 27px 0 26px 21px;
+  border: 1px solid #E5E5E5;
+  color: #333333;
+  box-sizing: border-box;
+}
+.compare_table__products_capsules {
+  width: 177px;
+  border: 1px solid #E5E5E5;
+  text-align: center;
+  background-color: #6D7BC3;
+  color: white;
+}
+.compare_table__products_product, .compare_table__products_surgery {
+  width: 177px;
+  background-color: #EAEAEA;
+  border: 1px solid #E5E5E5;
+  text-align: center;
+}
+
+@media (min-width: 694px) and (max-width: 995px) {
+  .compare {
+    width: auto;
+    padding: 41px 10px 70px;
+  }
+  .compare_table__products_title > img {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 694px) {
+  .compare {
+    display: none;
+  }
+}/*# sourceMappingURL=compareSection.css.map */

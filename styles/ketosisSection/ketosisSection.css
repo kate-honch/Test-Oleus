@@ -1,0 +1,83 @@
+.ketosis {
+  background: linear-gradient(180deg, #A3CC2C 0%, #5FBA49 100%);
+}
+.ketosis_container {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 31px 0;
+}
+.ketosis_block {
+  width: 472px;
+}
+.ketosis_title {
+  margin-bottom: 24px;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+.ketosis_title_mini {
+  font-size: 20px;
+  color: #0E3E0B;
+}
+.ketosis_text,
+.ketosis li {
+  margin-bottom: 16px;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.ketosis li:last-of-type {
+  margin-bottom: 0;
+}
+.ketosis_item__title {
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+}
+.ketosis ul {
+  margin-left: 25px;
+}
+
+@media (min-width: 694px) and (max-width: 995px) {
+  .ketosis_container {
+    width: auto;
+    padding: 31px 10px;
+    flex-direction: column;
+  }
+  .ketosis_block {
+    width: auto;
+  }
+}
+@media screen and (max-width: 694px) {
+  .ketosis_title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 38px;
+    letter-spacing: 0;
+  }
+  .ketosis_container {
+    width: auto;
+    padding: 31px 20px;
+    flex-direction: column;
+  }
+  .ketosis_block {
+    width: auto;
+  }
+  .ketosis ul {
+    margin-left: 0;
+  }
+  .ketosis img {
+    width: 250px;
+  }
+}/*# sourceMappingURL=ketosisSection.css.map */

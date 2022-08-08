@@ -1,0 +1,70 @@
+.stories_container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 41px 0 52px;
+  background-image: url("../../images/stories6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.stories_container h2 {
+  margin-bottom: 42px;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.stories .w-100 {
+  width: 468px !important;
+  height: 314px;
+}
+.stories .carousel-item > img {
+  margin-right: 24px;
+  float: left;
+}
+.stories_text {
+  margin-bottom: 24px;
+  font-family: "Helvetica";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.stories_autor {
+  font-family: "Helvetica";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #000000;
+}
+.stories .stories_btn {
+  position: relative;
+  width: 20px;
+  bottom: 0;
+  left: 50%;
+}
+.stories .stories_btn > img:nth-child(2) {
+  margin: 0 10px;
+}
+
+.carousel-control-next {
+  position: relative;
+  width: 20px;
+  bottom: 0;
+  left: 50%;
+}
+
+@media (min-width: 694px) and (max-width: 995px) {
+  .stories_container {
+    width: auto;
+    padding: 41px 10px 52px;
+  }
+}
+@media screen and (max-width: 694px) {
+  .stories {
+    display: none;
+  }
+}/*# sourceMappingURL=storiesSection.css.map */
